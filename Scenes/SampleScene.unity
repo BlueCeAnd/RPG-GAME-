@@ -200,11 +200,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 81778066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ca49eea81dcfb44d84e02bf3c030b98, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c9b3f34f87dbf14aa84c25aad52919a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveVector: {x: 0, y: 0, z: 0}
-  speed: 5
+  speed: 7
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,10 +393,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cca044668b423f64b8989989c2d8bc9a, type: 3}
+  m_Script: {fileID: 11500000, guid: d9463fa85db6a4e4093b849ab59fd527, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 81778066}
+  Player: {fileID: 0}
   MouseX_sens: 5
   MouseY_sens: 5
   frequency: 1
@@ -511,7 +511,7 @@ TerrainCollider:
   m_GameObject: {fileID: 2011671853}
   m_Material: {fileID: 0}
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 09fff25d8618f9d47bf99220df64ce4e, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 9143b043b79fc3542ac0d0011a043bbb, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &2011671855
 Terrain:
@@ -522,7 +522,7 @@ Terrain:
   m_GameObject: {fileID: 2011671853}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 09fff25d8618f9d47bf99220df64ce4e, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: 9143b043b79fc3542ac0d0011a043bbb, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
